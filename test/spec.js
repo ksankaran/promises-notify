@@ -1,5 +1,5 @@
 const { expect } = require('chai');
-const PromiseNotify = require('../index');
+const PromiseNotify = require('../src/index');
 
 describe('Promise Notify Sanity Tests', () => {
   getPromise = (text, delay = 0, err) => 
