@@ -1,6 +1,6 @@
 {
   "name": "promises-notify",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Notify listener after each promise resolve/reject",
   "main": "lib/index.js",
   "scripts": {
@@ -21,5 +21,9 @@
     "babel-preset-env": "^1.6.1",
     "chai": "^4.1.2",
     "mocha": "^5.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ksankaran/promises-notify.git"
   }
 }
