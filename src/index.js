@@ -8,7 +8,7 @@
  * const pNotify = new PromiseNotify([promises]);
  * pNotify.onEach({ result } => doSomething(result));
  */
-class PromiseNotify {
+class PromisesNotify {
   constructor(promises) {
     this.promises = promises;
   }
@@ -57,4 +57,4 @@ class PromiseNotify {
   }
 }
 
-module.exports = PromiseNotify;
+module.exports = PromisesNotify;
